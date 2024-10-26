@@ -146,3 +146,33 @@
   .list li:hover .delete-btn {
     opacity: 1;
   }
+  /* Footer styling */
+footer {
+  background-color: #333;
+  color: #f0f0f0;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content p {
+  margin: 0;
+}
+
+.currency-link {
+  color: #00b4d8;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.currency-link:hover {
+  text-decoration: underline;
+}
