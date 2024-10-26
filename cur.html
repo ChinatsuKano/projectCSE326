@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter with Flags</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <form>
+            <div class="converter">
+                <div class="currency-group from">
+                    <label for="from-currency">From:</label>
+                    <div class="currency-selection">
+                        <img id="from-flag" src="" alt="From Country Flag">
+                        <select name="from" id="from-currency" class="dropdown"></select>
+                    </div>
+                    <input type="number" class="amount" placeholder="Enter the Amount" min="1" value="">
+                </div>
+
+                <div class="currency-group to">
+                    <label for="to-currency">To:</label>
+                    <div class="currency-selection">
+                        <img id="to-flag" src="" alt="To Country Flag">
+                        <select name="to" id="to-currency" class="dropdown"></select>
+                    </div>
+                </div>
+            </div>
+            <button type="submit">Convert</button>
+        </form>
+        <div class="msg"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
